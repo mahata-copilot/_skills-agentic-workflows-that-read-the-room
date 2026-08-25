@@ -16,6 +16,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     max: 1
@@ -32,8 +33,9 @@ Refresh the GitHub Info content for Mona's website and propose the changes in a 
 2. Read the current `site/content/github-info.md` using the repository file or GitHub repository API tools.
 3. Web fetch https://github.blog/latest/.
 4. Web fetch https://github.blog/changelog/.
+5. Web fetch https://awesome-copilot.github.com/workflows/.
 
-Use only the official GitHub Blog and Changelog pages as sources for new updates. Keep summaries short and practical, focus on helping developers learn GitHub faster, and mention the source for every blog or changelog update.
+Use only the official GitHub Blog, Changelog, and Awesome Copilot workflows pages as sources for new updates. Keep summaries short and practical, focus on helping developers learn GitHub faster, and mention the source for every update.
 
 Update `site/content/github-info.md` with useful, accurate content that fits its existing editorial angle. Preserve the existing structure unless a small structural change is needed for clarity. Do not modify unrelated files.
 
